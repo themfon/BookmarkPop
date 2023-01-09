@@ -1,0 +1,23 @@
+{
+  "name": "bookmark_pop",
+  "version": "0.0.1",
+  "description": "bookmark tweets and access on your dashboard",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bookmark",
+    "twitter",
+    "bot",
+    "bot"
+  ],
+  "author": "technicaldee",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "twit": "^2.2.11"
+  }
+}
