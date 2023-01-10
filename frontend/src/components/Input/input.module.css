@@ -1,0 +1,96 @@
+.formControl {
+  display: flex;
+  flex-direction: column;
+}
+
+.formLabel {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  text-transform: capitalize;
+  margin-bottom: 13px;
+}
+
+.formInput {
+  font-family: inherit;
+  font-size: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  padding: 16px 20px;
+}
+
+.formRequired {
+  color: #ff6868;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.formInput:focus {
+  outline: 2px solid var(--primary-color); /* oranges! yey */
+}
+
+.formInput::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(0, 0, 0, 0.35);
+  opacity: 1; /* Firefox */
+}
+.formInput::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgba(0, 0, 0, 0.35);
+}
+
+.formInput:focus.formInput::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(0, 0, 0, 0.8);
+  opacity: 1; /* Firefox */
+}
+.formInput:focus.formInput::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.passwordIcon {
+  position: absolute;
+  width: 50px;
+  height: 100%;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  display: grid;
+  place-items: center;
+  justify-content: start;
+  align-items: center;
+}
+
+.iconContainer {
+  width: 100%;
+  position: relative;
+}
+
+.infoText,
+.errorText {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 16px;
+}
+
+.errorText {
+  color: #ff6868;
+}
+
+.errorInput {
+  border: 1px solid #ff6868;
+}
+
+.infoText {
+  color: rgba(0, 0, 0, 0.5);
+}

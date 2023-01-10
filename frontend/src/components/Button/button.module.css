@@ -1,0 +1,49 @@
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.buttonPrimary {
+  background: var(--primary-color);
+  color: var(--foundation-blue);
+}
+
+.buttonSecondary {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000000;
+}
+
+.buttonOutline {
+  background: #fff;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.buttonPlain {
+  color: var(--primary-color);
+  padding: 0 !important;
+}
+
+.buttonLarge {
+  padding: 20px 40px;
+  font-size: 20px;
+  line-height: 22px;
+}
+.buttonMedium {
+  padding: 16px 32px;
+  font-size: 16px;
+  line-height: 18px;
+}
+.buttonSmall {
+  padding: 14px 28px;
+  font-size: 14px;
+  line-height: 15px;
+}
