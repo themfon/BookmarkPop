@@ -10,6 +10,7 @@ import {
 import BalanceText from 'react-wrap-balancer';
 import Image from 'next/image';
 import VidIcon from '../components/icons/video';
+import AnotherFAQ from '../components/FAQ/AnotherFAQ';
 
 const Home = () => {
   return (
@@ -120,6 +121,7 @@ const Home = () => {
           </p>
         </div>
         <MainFAQ />
+        {/* <AnotherFAQ /> */}
       </section>
 
       <section className="callToAction py-16">
